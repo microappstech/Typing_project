@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <h2 class="title">Typing Spee Game</h2>
+    <div>
+      <p class="header">
+        You are playing on <span class="level">[-]</span> & You have 
+        <span class="have">[-]</span><br>
+        <span style="color: red;">! If you dosen't write the word in time you will lose</span>
+        <hr>
+      </p>
+      <p class="rword"></p>
+      <div style="padding-top: 50px">
+        <label for="levels">Select The Level</label>
+        <select onclick="getLevel()" id="levels">
+          --select level --
+          <option value="3">Hard</option>
+          <option value="4">Normal</option>
+          <option value="6">Easy</option>
+        </select>
+      </div>
+      <button id="start">Start Playing</button>
+      <input type="text" placeholder="Write text Here" />
+      <div class="ones"></div>
+      <div class="result">
+        <div class="tim">Time left : <span class="time"></span> Seconds</div>
+        <div class="scor">Score : <span class="score">0</span></div>
+      </div>
+      <p class="finish"></p>
+    </div>
+<!-- footer her  -->
+
+<section class="footer">
+
+  <div class="share">
+      <a href="https://web.facebook.com/hamza.modakur" class="fab fa-facebook-f"></a>
+      <a href="https://www.instagram.com/hamza_modakir/" class="fab fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/hamza-mouddakir-b4467a1b9/" class="fab fa-linkedin"></a>
+      <a href="https://github.com/microappstech" class="fab fa-github"></a>
+  </div>
+
+  <div style="font-size: 20px;" class="credit">created by <span><a style=" color: #d3ad7f;" href="https://hamza-mouddakir.me/">mr. Hamza Mouddakir</a></span> | all rights reserved</div>
+
+</section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
