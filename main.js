@@ -43,7 +43,6 @@ input.onpaste = function () {
     return false
 }
 start.onclick = () => {
-    alert('hello')
     start.remove()
     input.focus();
 
