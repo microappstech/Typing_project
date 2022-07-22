@@ -72,6 +72,7 @@ function play() {
         if (time.innerHTML == 0) {
             clearInterval(startI);
             time.style.color = 'red'
+            console.log(randomWord.innerHTML, input.value)
             if (randomWord.innerHTML == input.value) {
                 input.value = "";
                 score.innerHTML++;
